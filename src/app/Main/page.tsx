@@ -11,8 +11,7 @@ const page = () => {
           <Intro/>
           <About/>
           <Sec/>
-          <Projects/>
-          
+          <Projects/>          
         </div>
         
     </div>
