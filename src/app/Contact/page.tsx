@@ -1,11 +1,11 @@
-"use client";
+// use client
 import React from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/utils/cn";
 
-export function Contact() {
+const Contact = () => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         console.log("Form submitted");
@@ -59,6 +59,8 @@ export function Contact() {
         </div>
     );
 }
+
+export default Contact;
 
 const BottomGradient = () => {
     return (
